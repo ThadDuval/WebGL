@@ -1,4 +1,0 @@
-WebGL
-=====
-
-WebGL Examples
