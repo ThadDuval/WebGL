@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Project B</title>
+    <style>
+        #canvas1 { 
+            width: 97%;
+            margin: auto;
+            }
+        #webgl1 { 
+            width: 100%;
+            margin: auto; }
+    </style>
+  </head>
+
+  <body onload="main()" onresize="resize_canvas()">
+    <div id = "canvas1">
+    <canvas id="webgl1" width="300" height="300" style="z-index 0">
+    Please use a browser that supports "canvas"
+    </canvas>
+     <canvas id="hud" width="800" height="800" style="position: fixed; z-index: 1; top: 30px; left: 10px;"></canvas>
+    <div id = "cameraposition">
+    </div>
+
+
+    <script src="../lib/webgl-utils.js"></script>
+    <script src="../lib/webgl-debug.js"></script>
+    <script src="../lib/cuon-utils.js"></script>
+    <script src="../lib/cuon-matrix-mod.js"></script>
+    <script src="351-Project B.js"></script>
+  
+  </body>
+</html>
+
